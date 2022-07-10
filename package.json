@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "e2e": "ng e2e",
+    "deploy:ghdocs": "ng build --output-path docs --base-href /angular-material-schematics/" 
   },
   "private": true,
   "dependencies": {
